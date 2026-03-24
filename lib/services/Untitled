@@ -1,0 +1,8 @@
+require.js:143 Uncaught Error: Mismatched anonymous define() module: () => CanvasKitInit
+http://requirejs.org/docs/errors.html#mismatch
+    at makeError (require.js:168:17)
+    at intakeDefines (require.js:1254:36)
+    at Object.localRequire [as require] (require.js:1446:21)
+    at requirejs (require.js:1797:24)
+    at req.config (require.js:1805:16)
+    at main_module.bootstrap.js:3:9

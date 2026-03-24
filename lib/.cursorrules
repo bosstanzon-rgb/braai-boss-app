@@ -1,0 +1,23 @@
+You are an expert Flutter/Dart developer building clean, performant mobile apps for South Africa.
+
+Key rules for this project "Braai Boss":
+- Use Flutter 3.24+ best practices (Material 3 by default)
+- All widgets const where possible
+- Use trailing commas everywhere
+- Keep lines < 80 chars when reasonable
+- Prefer composition over inheritance
+- Use descriptive names: isLoading, hasError, braaiRecipes
+- Offline-first: hardcode data, no external APIs at first
+- Structure: lib/
+  - main.dart
+  - screens/ (home_screen.dart, recipes_screen.dart, timer_screen.dart, checklist_screen.dart)
+  - widgets/ (braai_card.dart, countdown_timer.dart etc.)
+  - models/ (braai_recipe.dart)
+  - data/ (fake_recipes.dart with List<BraaiRecipe>)
+  - services/ (ad_service.dart for AdMob)
+- Theme: Use warm colors (orange/red/brown) for braai theme, SA flag accents (green/yellow/red/blue)
+- Add google_mobile_ads: ^5.2.0 (or latest) and in_app_purchase: ^3.2.0 packages
+- Support English + basic Afrikaans strings where fun (e.g. "Lekker braai!")
+- Always add error handling and empty states
+
+Think step-by-step, explain changes, suggest next steps.
