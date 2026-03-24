@@ -73,7 +73,7 @@ class BraaiTheme {
       appBarTheme: const AppBarTheme(
         centerTitle: false,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: Colors.white,
         surfaceTintColor: Colors.white,
         elevation: 0.0,
